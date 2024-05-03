@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-image{
+    background-image: url("https://www.rathielectricals.com/upload/content/banner/bannerimage-2023-04-05-10-21-47-CA7.jpg");
+    width: 200px;
+    height: 200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
+}
+/* .col{
+    width: calc(100%/3);
+    padding: 0 15px;
+} */
+.head{
+    background: linear-gradient(to right, yellow, orange);
+    padding: 0 15px;
+}
+li {
+    float: left;
+    list-style: none;
+    margin: 3px 3px;
+}
+li a{
+    padding: 3px 3px;
+    text-decoration: none;
+
+}
+ul{
+    overflow: auto;
+    padding: 20px;
+}
+.text-center{
+    text-align: center;
+    font-size: 13px;
+}
+.logo{
+    background-image: url(https://rathielectricals.com/frontend/img/Logo.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.banner-img{
+    width: 100%;
+}

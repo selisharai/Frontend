@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row-1{
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.row-2{
+    background-color:bisque;
+    color: rgb(13, 12, 12);
+    height: 100px;  
+    
+}
+.about{
+    text-align: center;
+}
+.row-3{
+    display: flex;
+    background-color:white;
+    text-align: left;
+    color: rgb(13, 12, 12);
+    height: 300px;
+}
+.row-4{
+    text-align: left;
+    height: 400px;
+    display: flex;
+    padding-left: 20px 20px;
+}
+.row-5{
+    display: flex;
+    background-color: rgb(252, 249, 249);
+    text-align: center;
+    height: 300px;
+    color: black;
+}
+.row-6{
+    display: flex;
+    background-color: rgb(252, 249, 249);
+    text-align: center;
+    height: 300px;
+    color: black;
+}
+
+
+.head{
+    background-image: url("https://t4.ftcdn.net/jpg/02/33/91/27/360_F_233912745_C7SqhJCeiMlSuTDNqyAmwIPNT18fNH1P.jpg");
+    height: 1000px;
+    /* width: 1500px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    float: left;
+    list-style: none;
+    margin: 3px 3px;
+}
+li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+ul{
+    overflow: auto;
+    padding: 20px;
+}
+.card-1{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    height: 300px;
+    border:solid 3px rgb(218, 16, 16);
+    color: aliceblue;
+    width: 500px;
+    
+}
+.card-2{
+   
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    height: 300px;
+    border:solid 3px rgb(227, 34, 34);
+    color: aliceblue;
+    width: 500px;
+    
+    
+}
+.col-4{
+    width: calc(100%/2);
+    padding: 0 15px;
+}
+.col-7{
+    width: calc(100%/2);
+    padding: 0 15px;
+    margin-right: auto;
+
+}
+.col-8{
+    width: calc(100%/3);
+    padding: 0 15px;
+    margin-right: auto;
+}
+.col-9{
+    width: calc(100%/3);
+    padding: 0 15px;
+    margin-right: auto;
+}
+.foot-head{
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    border-bottom: solid 2px red;
+
+}
+.foot-nav a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+.mlauto{
+    margin-left: auto;
+    height: 200px;
+}
+
+.mission{
+    margin-left: auto;
+    height: 200px;
+}
+.image{
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+}
+.ima{
+    height: 50px;
+    width: 350px;
+    margin-left: auto;
+}
+.social-icon {
+    padding-top: 10px;
+}
+.follow-btn{
+    height: 300px;
+    width: 30px;
+  padding: 3px 0px;
+  text-align: center;
+  color: rgb(56, 101, 216);
+  margin-right: 5px;
+}
+.follow-bt{
+    height: 300px;
+    width: 30px;
+    padding: 3px 0px;
+    text-align: center;
+    color: red;
+    margin-right: 5px;
+}
+.follow-b{
+    height: 300px;
+    width: 30px;
+    padding: 3px 0px;
+    text-align: center;
+    color: darkred;
+}
+.follow{
+    height: 300px;
+    width: 30px;
+    padding: 3px 0px;
+    text-align: center;
+    color: rgb(104, 161, 197);
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
+}
+.col{
+    width:calc(100%/4);
+    padding: 0 15px;
+}
+.foot{
+    background: linear-gradient(to right, yellow, orange);
+    padding: 0 15px;
+}
+.logo{
+    width: 100%;   
+}
+.text-center{
+    text-align: center;
+    font-size: 13px;
+}
+.foot-head{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    border-bottom: solid 2px rgb(234, 37,37);
+}
+.foot-nav a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+.follow-btn{
+    height: 300px;
+    width: 30px;
+    border-radius: 50%;
+  border: solid 2px black;
+  display: inline-block;
+  font-size: 20px;
+  padding: 3px 0px;
+  text-align: center;
+  color: black;
+  margin-right: 5px;
+}
+.social-icon {
+  padding-top: 10px;
+}

@@ -1,0 +1,26 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.col{
+    display: flex;
+}
+.image{
+    padding: 5px;
+}
+.class1{
+    margin-left: auto;
+    padding-right: 10px;
+}
+.form{
+    display: flex;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.class2{
+    padding-right: 10px;
+}

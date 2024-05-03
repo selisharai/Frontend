@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.image-container{
+    height: 200px;
+    width: 200px;
+    background-image: url('https://qodebrisbane.com/wp-content/uploads/2019/07/This-is-not-a-person-2-1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image-side{
+    width: calc(100% - 200px);
+    height: 200px;
+    background-color: rgb(22, 22, 73);
+    padding: 10px 15px;
+    color: aliceblue;
+}
+.col{
+    width:calc(100%/2);
+    
+}
+.pi{
+    display:inline-block;
+    padding:5px 10px;
+}
+

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 3);
+
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+    position: relative;
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    padding: 15px 15px;
+}
+.man{
+    padding: 15px;
+}
+label{
+    display: block;
+}
